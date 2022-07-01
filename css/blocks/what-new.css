@@ -1,0 +1,62 @@
+.what-new {
+  border-radius: 15px;
+  background-color: #f7f9f9;
+  margin-bottom: 15px;
+}
+
+.what-new_block-content {
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.what-new_block {
+  padding: 10px 15px;
+}
+
+.what-new_block:hover {
+  cursor: default;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.what-new_block-content:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+.show-more_block {
+  padding: 10px 15px;
+}
+
+.show-more_block:hover {
+  padding: 10px 15px;
+  background-color: #e9ecef;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+
+.show-more {
+  color: #1d9bf0;
+  font-size: 15px;
+}
+
+.what-new__headning {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f1419;
+}
+
+.what-new__info {
+  font-size: 13px;
+  font-weight: 300;
+  color: #536471;
+}
+
+.what-new__trend-name {
+  font-size: 15px;
+  color: #0f1419;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}

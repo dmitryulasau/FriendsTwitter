@@ -1,0 +1,70 @@
+.follow {
+  background-color: #f7f9f9;
+  border-radius: 15px;
+}
+
+.follow_block-content {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.follow_block-content:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+.follow_block {
+  padding: 10px 15px;
+}
+
+.follow_block:hover {
+  cursor: default;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.follow__heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f1419;
+}
+
+.follow_author {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.follow__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.follow__author-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.follow-at {
+  color: #536471;
+  font-size: 15px;
+}
+
+.follow__button {
+  border: none;
+  background-color: #0f1419;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  transition: 0.3s;
+}
+
+.follow__button:hover {
+  background-color: rgba(15, 20, 25, 0.95);
+}

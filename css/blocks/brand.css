@@ -1,0 +1,23 @@
+.brand {
+  width: 28px;
+  filter: invert(49%) sepia(98%) saturate(1995%) hue-rotate(179deg)
+    brightness(98%) contrast(92%);
+  /* padding: 10px; */
+}
+
+.left-sidebar-menu__item-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: fit-content;
+  padding: 12px;
+  transition: 0.3s;
+}
+
+.left-sidebar-menu__item-logo:hover {
+  background-color: rgba(29, 156, 240, 0.2);
+
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 9999px;
+}

@@ -1,0 +1,30 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.layout {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.layoout__left-sidebar {
+  width: 275px;
+}
+/* .layout__main {
+  color: white;
+} */
+
+.layout__right-sidebar {
+  position: fixed;
+  width: 350px;
+}
+
+.verified {
+  filter: invert(49%) sepia(98%) saturate(1995%) hue-rotate(179deg)
+    brightness(98%) contrast(92%);
+  width: 18px;
+  text-align: center;
+  margin-left: 2px;
+}

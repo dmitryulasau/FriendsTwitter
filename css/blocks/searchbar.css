@@ -1,0 +1,36 @@
+.search-fixed {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  background-color: #eff3f4;
+  border-radius: 9999px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  color: #536471;
+}
+
+.searchbar-main {
+  display: fixed;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+#search-addon {
+  background-color: #eff3f4;
+}
+
+.search-input {
+  background-color: #eff3f4;
+  border: none;
+}
+
+.search-icon {
+  width: 18px;
+  filter: invert(37%) sepia(15%) saturate(563%) hue-rotate(164deg)
+    brightness(97%) contrast(91%);
+  align-self: center;
+}

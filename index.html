@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/blocks/layout.css" />
+    <link rel="stylesheet" href="./css/blocks/brand.css" />
+    <link rel="stylesheet" href="./css/blocks/left-sidebar-menu.css" />
+    <link rel="stylesheet" href="./css/blocks/tweet.css" />
+    <link rel="stylesheet" href="./css/blocks/what-new.css" />
+    <link rel="stylesheet" href="./css/blocks/follow.css" />
+    <link rel="stylesheet" href="./css/blocks/searchbar.css" />
+
+    <title>Friends / Twitter</title>
+  </head>
+  <body>
+    <div class="layout container">
+      <div class="row">
+        <!-- LEFT sidebar -->
+        <div class="layoout__left-sidebar col-md-3">
+          <!-- TWITTER LOGO -->
+
+          <div class="left-sideber-menu">
+            <div class="left-sidebar-menu__item-logo">
+              <img
+                src="./svg/twitter-logo.svg"
+                alt="Twitter logo"
+                class="brand"
+              />
+            </div>
+
+            <!-- HOME -->
+            <div
+              class="left-sidebar-menu__item left-sidebar-menu__item--active"
+            >
+              <img
+                src="./svg/home.svg"
+                alt="Twitter home"
+                class="left-sidebar-menu__item-icon"
+              />
+              Home
+            </div>
+            <!-- EXPLORE -->
+            <div class="left-sidebar-menu__item">
+              <img
+                src="./svg/explore.svg"
+                alt="Twitter explore"
+                class="left-sidebar-menu__item-icon"
+              />
+              Explore
+            </div>
+
+            <!-- NOTIFICATIONS -->
+            <div class="left-sidebar-menu__item">
+              <img
+                src="./svg/notifications.svg"
+                alt="Twitter notifications"
+                class="left-sidebar-menu__item-icon"
+              />
+              Notifications
+            </div>
+
+            <!-- MESSAGES -->
+            <div class="left-sidebar-menu__item">
+              <img
+                src="./svg/messages.svg"
+                alt="Twitter messages"
+                class="left-sidebar-menu__item-icon"
+              />
+              Messages
+            </div>
+
+            <!-- BOOKMARKS -->
+            <div class="left-sidebar-menu__item">
+              <img
+                src="./svg/bookmarks.svg"
+                alt="Twitter bookmarks"
+                class="left-sidebar-menu__item-icon"
+              />
+              Bookmarks
+            </div>
+
+            <!-- LISTS -->
+            <div class="left-sidebar-menu__item">
+              <img
+                src="./svg/lists.svg"
+                alt="Twitter lists"
+                class="left-sidebar-menu__item-icon"
+              />
+              Lists
+            </div>
+
+            <!-- PROFILE -->
+            <div class="left-sidebar-menu__item">
+              <img
+                src="./svg/profile.svg"
+                alt="Twitter profile"
+                class="left-sidebar-menu__item-icon"
+              />
+              Profile
+            </div>
+
+            <!-- MORE -->
+            <div class="left-sidebar-menu__item">
+              <img
+                src="./svg/more.svg"
+                alt="Twitter more..."
+                class="left-sidebar-menu__item-icon"
+              />
+              More
+            </div>
+
+            <!-- TWEET BUTTON -->
+            <div class="left-sidebar-menu__tweet">
+              <a href="#" class="tweet-button"><span>Tweet</span></a>
+            </div>
+          </div>
+        </div>
+        <!-- MAIN -->
+        <div class="layout__main col-md-6">
+          <!-- TWEET 0-->
+
+          <div class="what-new__headning-home">Home</div>
+
+          <div class="tweet tweet-0">
+            <img
+              class="tweet__author-logo"
+              src="./images/profile-image-0.png"
+              alt="Rachel Green"
+            />
+            <div class="tweet__main">
+              <div class="tweet__header">
+                <!-- <div class="tweet__author-name">
+                    Rachel Green 👸
+                    <img class="verified" src="./svg/verified.svg" />
+                  </div> -->
+                <!-- <div class="tweet__author-slug">@JenniferAniston</div>
+                <div class="tweet__publish-time">18 years ago</div> -->
+              </div>
+              <div class="tweet__content-0" class="home-tweet">
+                What's happening?
+                <!-- <a href="#">#Watch FRIENDS now!</a> -->
+                <!-- <img
+                  class="tweet__image"
+                  src="./images/tweet_1.jpg"
+                  alt="Friends TV Show"
+                /> -->
+              </div>
+            </div>
+          </div>
+          <!-- TWEET END -->
+          <!-- TWEET 1-->
+          <div class="tweet">
+            <img
+              class="tweet__author-logo"
+              src="./images/profile-image-1.jfif"
+              alt="Rachel Green"
+            />
+            <div class="tweet__main">
+              <div class="tweet__header">
+                <div class="tweet__author-name">
+                  Rachel Green 👸
+                  <img class="verified" src="./svg/verified.svg" />
+                </div>
+                <div class="tweet__author-slug">@JenniferAniston</div>
+                <div class="tweet__publish-time">18 years ago</div>
+              </div>
+              <div class="tweet__content">
+                I got off the plane. ✈
+                <a href="#">#Watch FRIENDS now!</a>
+                <img
+                  class="tweet__image"
+                  src="./images/tweet_1.jpg"
+                  alt="Friends TV Show"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- TWEET END -->
+
+          <!-- TWEET 2-->
+          <div class="tweet">
+            <img
+              class="tweet__author-logo"
+              src="./images/profile-image-2.jpg"
+              alt="Ross Geller"
+            />
+            <div class="tweet__main">
+              <div class="tweet__header">
+                <div class="tweet__author-name">
+                  Ross Geller 🙊
+                  <img class="verified" src="./svg/verified.svg" />
+                </div>
+                <div class="tweet__author-slug">@DavidSchwimmer</div>
+                <div class="tweet__publish-time">18 years ago</div>
+              </div>
+              <div class="tweet__content">
+                Pivot! Pivot! Pivot! 😂
+                <img
+                  class="tweet__image"
+                  src="./images/tweet_2.gif"
+                  alt="Pivot! Pivot! Pivot!"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- TWEET END -->
+
+          <!-- TWEET 4-->
+          <div class="tweet">
+            <img
+              class="tweet__author-logo"
+              src="./images/profile-image-4.png"
+              alt="Joe Tribbiani"
+            />
+            <div class="tweet__main">
+              <div class="tweet__header">
+                <div class="tweet__author-name">
+                  Chandler Bing 🦆🐤
+                  <img class="verified" src="./svg/verified.svg" />
+                </div>
+                <div class="tweet__author-slug">@MatthewPerry</div>
+                <div class="tweet__publish-time">18 years ago</div>
+              </div>
+              <div class="tweet__content">
+                SHUT UP! SHUT UP! SHUT UPPPP!!
+                <img
+                  class="tweet__image"
+                  src="./images/tweet_4.gif"
+                  alt="Pivot! Pivot! Pivot!"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- TWEET END -->
+          <!-- TWEET 3-->
+          <div class="tweet">
+            <img
+              class="tweet__author-logo"
+              src="./images/profile-image-3.jpg"
+              alt="Joe Tribbiani"
+            />
+            <div class="tweet__main">
+              <div class="tweet__header">
+                <div class="tweet__author-name">
+                  Joey Tribbiani 🍕
+                  <img class="verified" src="./svg/verified.svg" />
+                </div>
+                <div class="tweet__author-slug">@MattLeBlanc</div>
+                <div class="tweet__publish-time">18 years ago</div>
+              </div>
+              <div class="tweet__content">
+                Joey doesn't share food!
+                <img
+                  class="tweet__image"
+                  src="./images/tweet_3.gif"
+                  alt="Pivot! Pivot! Pivot!"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- TWEET END -->
+          <!-- TWEET 5-->
+          <div class="tweet">
+            <img
+              class="tweet__author-logo"
+              src="./images/profile-image-5.jpg"
+              alt="Joe Tribbiani"
+            />
+            <div class="tweet__main">
+              <div class="tweet__header">
+                <div class="tweet__author-name">
+                  Monica Geller 🧼
+                  <img class="verified" src="./svg/verified.svg" />
+                </div>
+                <div class="tweet__author-slug">@CourteneyCox</div>
+                <div class="tweet__publish-time">18 years ago</div>
+              </div>
+              <div class="tweet__content">
+                Seven! <a href="#">#777!</a>
+                <img
+                  class="tweet__image"
+                  src="./images/tweet_5.gif"
+                  alt="Pivot! Pivot! Pivot!"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- TWEET END -->
+
+          <!-- TWEET 6-->
+          <div class="tweet">
+            <img
+              class="tweet__author-logo"
+              src="./images/profile-image-6.jpg"
+              alt="Joe Tribbiani"
+            />
+            <div class="tweet__main">
+              <div class="tweet__header">
+                <div class="tweet__author-name">
+                  Phoebe Buffay 🐈🎸
+                  <img class="verified" src="./svg/verified.svg" />
+                </div>
+                <div class="tweet__author-slug">@LisaKudrow</div>
+                <div class="tweet__publish-time">18 years ago</div>
+              </div>
+              <div class="tweet__content">
+                See? He's her lobster. 🦞
+                <img
+                  class="tweet__image"
+                  src="./images/tweet_6.gif"
+                  alt="Pivot! Pivot! Pivot!"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- TWEET END -->
+        </div>
+        <!-- RIGHT sidebar -->
+
+        <div class="layout__right-sidebar-container col-md-3">
+          <div class="layout__right-sidebar">
+            <!-- SEARCH -->
+
+            <div class="searchbar-main">
+              <div class="search-fixed">
+                <div class="search-icon_block">
+                  <img src="./svg/search.svg" class="search-icon" />
+                </div>
+
+                <div>
+                  <label for="searchbar" class="label-searchbar"></label>
+
+                  <input
+                    class="search-input"
+                    id="searchbar"
+                    placeholder="Search on Twitter"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="what-new">
+              <!-- NEWS 1  -->
+              <div class="what-new_block">
+                <div class="what-new__headning">What's happening</div>
+              </div>
+
+              <!-- NEWS 2  -->
+              <div class="what-new_block-content">
+                <div class="what-new__info">We were on a break!</div>
+                <div class="what-new__trend-name">
+                  Who could forget this gem — used repeatedly by Ross — to
+                  justify sleeping with someone other than his longtime love,
+                  Rachel, after she suggested they take a break (but not break
+                  up, duh).
+                </div>
+                <div class="what-new__info">2.0M Tweets</div>
+              </div>
+
+              <!-- NEWS 3  -->
+              <div class="what-new_block-content">
+                <div class="what-new__info">
+                  Could I be wearing any more clothes?
+                </div>
+                <div class="what-new__trend-name">
+                  Remember when Joey expertly trolled Chandler, his sweatpants
+                  and his singular approach to intonation?
+                </div>
+                <div class="what-new__info">10.0M Tweets</div>
+              </div>
+
+              <!-- NEWS 4  -->
+              <div class="what-new_block-content">
+                <div class="what-new__info">How you doin'?</div>
+                <div class="what-new__trend-name">
+                  This list would not be complete without Joey’s signature
+                  catchphrase.
+                </div>
+                <div class="what-new__info">500.0M Tweets</div>
+              </div>
+
+              <!-- SHOW MORE -->
+              <div class="show-more_block">
+                <div class="show-more">Show more</div>
+              </div>
+            </div>
+
+            <!-- WHO TO FOLLOW -->
+            <div class="follow">
+              <!-- Follow Heading -->
+              <div class="follow_block">
+                <div class="follow__heading">Who to follow</div>
+              </div>
+
+              <!-- Follow 1 -->
+              <div class="follow_block-content">
+                <img
+                  class="follow_author"
+                  src="./images/profile-image-3.jpg"
+                  alt="author"
+                />
+                <div class="follow__content">
+                  <div>
+                    <div class="follow__author-name">
+                      Joe Tribbiani
+                      <img class="verified" src="./svg/verified.svg" />
+                    </div>
+                    <div class="follow-at">@MatLeBlanc</div>
+                  </div>
+                </div>
+                <div class="follow__button">Follow</div>
+              </div>
+
+              <!-- Follow 2 -->
+              <div class="follow_block-content">
+                <img
+                  class="follow_author"
+                  src="./images/profile-image-1.jfif"
+                  alt="author"
+                />
+                <div class="follow__content">
+                  <div>
+                    <div class="follow__author-name">
+                      Rachel Green
+                      <img class="verified" src="./svg/verified.svg" />
+                    </div>
+
+                    <div class="follow-at">@JenniferAniston</div>
+                  </div>
+                </div>
+                <div class="follow__button">Follow</div>
+              </div>
+
+              <!-- Follow 3 -->
+              <div class="follow_block-content">
+                <img
+                  class="follow_author"
+                  src="./images/profile-image-2.jpg"
+                  alt="author"
+                />
+                <div class="follow__content">
+                  <div>
+                    <div class="follow__author-name">
+                      David Schwimmer
+                      <img class="verified" src="./svg/verified.svg" />
+                    </div>
+                    <div class="follow-at">@DavidSchwimmer</div>
+                  </div>
+                </div>
+                <div class="follow__button">Follow</div>
+              </div>
+
+              <div class="show-more_block">
+                <div class="show-more">Show more</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ION ICON -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
